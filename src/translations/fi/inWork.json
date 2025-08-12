@@ -1,0 +1,11 @@
+{
+  "pageTitle": "Työmaat käynnissä",
+  "intro": "Tutustu käynnissä oleviin työmaihimme.",
+  "projects": [
+    {
+      "title": "Itsenäisyydenkatu 25, Tampere",
+      "description": "Asunto Oy Kalevanlukko. Kerrostalojen julkisivurappauksen sekä parvekkeiden uusiminen, julkisivujen maalaus."
+    }
+  ],
+  "empty": "Tällä hetkellä ei ole aktiivisia työmaita."
+}

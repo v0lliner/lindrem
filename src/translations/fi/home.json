@@ -1,0 +1,35 @@
+{
+  "heroTitle": "Lindrem - rappaustyöt, uudisrakentaminen ja peruskorjaus",
+  "heroSubtitle": "Rakennustyöt vuodesta 1993",
+  "companyTitle": "Rakennustyöt vuodesta 1993",
+  "companyParagraph1": "AS Lindrem on virolaiselle pääomalle pohjautuva rakennusyritys, joka on perustettu vuonna 1993. Lindrem sekä tekee julkisivutöitä uusille rakennuksille että restauroi historiallisia kohteita. Töitä toteutetaan Suomessa ja Virossa, mutta yritys on tehnyt runsaasti julkisivutöitä myös muualla Euroopassa kuten Saksassa, Ruotsissa, Ranskassa jm.",
+  "companyParagraph2": "Suomessa on Lindrem työskennellyt vuodesta 2000 lähtien Helsingissä, Tampereella, Lahdessa ja Ahvenanmaalla. Nykyään toimitaan pääosin Tampereella. Lindremilla on perustettu Suomessa sivuliike Y‑tunnuksella 2032042‑3, yritys on merkitty ennakkoperintärekisteriin, työnantajarekisteriin ja arvonlisäverovelvollisten rekisteriin.",
+  "companyParagraph3": "Yrityksen netto liikevaihto on ollut vuosittain n. 6 – 10 miljoona euroa, joka muodostuu rappaustöistä sekä yleisrakennuskohteista. Yrityksessä työskentelee 30 työntekijää. Tilaajiksi ovat valtaosassa valtiohallinnon virastot sekä asunto‑osakeyhtiöt, joiden kanssa Lindrem toimii pääurakoitsijana.",
+  "companyParagraph4": "Yrityksemme ottaa tarkasti huomioon työn ja käytettyjen tarvikkeiden laadun, ollakseen Viron sekä Suomenkin johtavia julkisivutöiden tekijöitä ja auttaakseen tilaajien saavuttaa hyviä ratkaisuja rakennusongelmilleen.",
+  "servicesTitle": "Palvelut",
+  "services": [
+    {
+      "title": "Julkisivujen rappaus- ja maalaustyöt",
+      "description": "Julkisivujen rappaus- ja maalaustyöt",
+      "slug": "julkisivujen-rappaus-maalaustyot"
+    },
+    {
+      "title": "Parvekekorjaukset ja uusimiset",
+      "description": "Parvekekorjaukset ja uusimiset",
+      "slug": "parvekekorjaukset-uusimiset"
+    },
+    {
+      "title": "Julkisivulevy-verhoukset",
+      "description": "Julkisivulevy-verhoukset",
+      "slug": "julkisivulevy-verhoukset"
+    },
+    {
+      "title": "Uudisrakentaminen ja peruskorjaustyöt",
+      "description": "Uudisrakentaminen ja peruskorjaustyöt",
+      "slug": "uudisrakentaminen-peruskorjaustyot"
+    }
+  ],
+  "ctaTitle": "Kiinnostuitko?",
+  "ctaDescription": "Ota yhteyttä saadaksesi lisätietoa palveluistamme ja projekteistamme.",
+  "ctaButton": "Ota yhteyttä"
+}

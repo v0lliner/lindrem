@@ -1,0 +1,35 @@
+{
+  "heroTitle": "Lindrem - krohvimine ja üldehitustööd",
+  "heroSubtitle": "Ehitustööd alates 1993. aastast",
+  "companyTitle": "Ehitustööd alates 1993. aastast",
+  "companyParagraph1": "AS Lindrem teostab fassaaditöid nii uusehitustele kui ka restaureerib ajaloolisi krohvifassaade. Töid teostatakse piirkonniti peamiselt Tallinnas ja Tamperes, kuid firma on teinud fassaaditöid ja üldehitustöid ka Rootsis, Saksamaal, Prantsusmaal, Lätis, Leedus, Poolas, Venemaal, Belgias, Hollandis, Portugalis jm. Euroopas.",
+  "companyParagraph2": "Ettevõtte netokäive viimastel aastatel on olnud ca 6 – 10 miljonit eurot, ettevõttes töötab 30 inimest. Tellijateks on valdavalt riigiasutused, korteriühistud ja muud institutsioonid.",
+  "companyParagraph3": "AS Lindrem teostab ka mitmesuguseid üldehitus- ja remonditöid, nii fassaaditöödega seonduvaid kui peatöövõtuobjekte.",
+  "companyParagraph4": "Firma pöörab suurt tähelepanu tööde ja kasutatavate materjalide kvaliteedile, et olla nii Eesti kui Soome üks juhtivaid fassaaditööde teostajaid ning aidata tellijatel saavutada oma ehitusküsimustele häid lahendusi.",
+  "servicesTitle": "Teenused",
+  "services": [
+    {
+      "title": "Krohvimine ja restaureerimine",
+      "description": "Krohvimine ja restaureerimine",
+      "slug": "krohvimine-ja-restaureerimine"
+    },
+    {
+      "title": "Soojustuskrohvi-tööd",
+      "description": "Soojustuskrohvi-tööd",
+      "slug": "soojustuskrohvi-tood"
+    },
+    {
+      "title": "Tsementkiud-plaatidest fassaadide ehitamine",
+      "description": "Tsementkiud-plaatidest fassaadide ehitamine",
+      "slug": "tsementkiud-plaatidest-fassaadide-ehitamine"
+    },
+    {
+      "title": "Üldehitus- ja remonditööd",
+      "description": "Üldehitus- ja remonditööd",
+      "slug": "uldehitus-ja-remonditood"
+    }
+  ],
+  "ctaTitle": "Kas soovite rohkem teada?",
+  "ctaDescription": "Võtke meiega ühendust, et saada lisateavet teenuste ja projektide kohta.",
+  "ctaButton": "Võta meiega ühendust"
+}

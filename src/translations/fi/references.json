@@ -1,0 +1,29 @@
+{
+  "pageTitle": "Referenssit",
+  "intro": "Tutustu aiempiin projekteihimme.",
+  "references": [
+    {
+      "title": "Viron pysyvä EU edustusto Brysselissä",
+      "description": "Toimistorakennuksessa peruskorjattiin noin 750 m² ja koko talotekniikka sekä kiintokalusteet alueella uusitiin. Urakka-aika 10 kk 2024-2025."
+    },
+    {
+      "title": "Teollisuushalli Ylöjärvellä",
+      "description": "Rakennettiin uusi teollisuushalli vuonna 2024."
+    },
+    {
+      "title": "Asunto Oy Vallikatu 14",
+      "description": "Vuonna 2024 uusittiin kerrostalon huoneistoparvekkeet, ikkunat ja vesikatto, tehtiin uusi julkisivulevyverhous ja päätyseinien julkisivurappaus."
+    },
+    {
+      "title": "Asunto Oy Saarenniitty",
+      "description": "Kolmen kerrostalon päätyseinistä purettiin ulkokuori, uusittiin lämmöneristykset ja tehtiin StoVentec-ohutrappausjärjestelmä rappauslevylle. Pitkien sivujen julkisivusaumat uusittiin. 2024."
+    },
+    {
+      "title": "Viron suurlähetystö Ateenassa",
+      "description": "Viron suurlähetystön saneeraus Ateenassa. Muutetiin huonejakoja, uusittiin kaikki lattia-, katto- ja seinäpinnat sekä märkätilat. Asennettiin uusi keittiö ja uusittiin kaikki irtokalusteet. Asennettiin kokonaan uusi ilmastointi ja kattovalaistus. Urakka-aika huhtikuu–kesäkuu 2024. Tilaaja Viron ulkoministeriö."
+    }
+  ],
+  "ctaTitle": "Kiinnostuitko?",
+  "ctaDescription": "Ota yhteyttä saadaksesi lisätietoa projekteistamme.",
+  "ctaButton": "Ota yhteyttä"
+}
