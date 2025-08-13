@@ -1,26 +1,36 @@
 {
   "pageTitle": "Referenssit",
-  "intro": "Tutustu aiempiin projekteihimme.",
+  "intro": "Tutustu aiempiin projekteihimme. Valikoituja referenssejä viime vuosilta.",
   "references": [
     {
       "title": "Viron pysyvä EU edustusto Brysselissä",
-      "description": "Toimistorakennuksessa peruskorjattiin noin 750 m² ja koko talotekniikka sekä kiintokalusteet alueella uusitiin. Urakka-aika 10 kk 2024-2025."
+      "description": "Toimistorakennuksessa peruskorjattiin noin 750 m² ja koko talotekniikka sekä kiintokalusteet alueella uusitiin. Urakka-aika 10 kk 2024-2025.",
+      "meta": ["Bryssel", "2024–2025", "Peruskorjaus"],
+      "imageUrl": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1200&auto=format&fit=crop"
     },
     {
       "title": "Teollisuushalli Ylöjärvellä",
-      "description": "Rakennettiin uusi teollisuushalli vuonna 2024."
+      "description": "Rakennettiin uusi teollisuushalli vuonna 2024.",
+      "meta": ["Ylöjärvi", "2024", "Uudisrakentaminen"],
+      "imageUrl": "https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=1200&auto=format&fit=crop"
     },
     {
       "title": "Asunto Oy Vallikatu 14",
-      "description": "Vuonna 2024 uusittiin kerrostalon huoneistoparvekkeet, ikkunat ja vesikatto, tehtiin uusi julkisivulevyverhous ja päätyseinien julkisivurappaus."
+      "description": "Vuonna 2024 uusittiin kerrostalon huoneistoparvekkeet, ikkunat ja vesikatto, tehtiin uusi julkisivulevyverhous ja päätyseinien julkisivurappaus.",
+      "meta": ["Tampere", "2024", "Peruskorjaus"],
+      "imageUrl": "https://images.unsplash.com/photo-1487956382158-bb926046304a?q=80&w=1200&auto=format&fit=crop"
     },
     {
       "title": "Asunto Oy Saarenniitty",
-      "description": "Kolmen kerrostalon päätyseinistä purettiin ulkokuori, uusittiin lämmöneristykset ja tehtiin StoVentec-ohutrappausjärjestelmä rappauslevylle. Pitkien sivujen julkisivusaumat uusittiin. 2024."
+      "description": "Kolmen kerrostalon päätyseinistä purettiin ulkokuori, uusittiin lämmöneristykset ja tehtiin StoVentec-ohutrappausjärjestelmä rappauslevylle. Pitkien sivujen julkisivusaumat uusittiin. 2024.",
+      "meta": ["Nokia", "2024", "Ohutrappaus"],
+      "imageUrl": "https://images.unsplash.com/photo-1600566751815-5cf5d8c9af66?q=80&w=1200&auto=format&fit=crop"
     },
     {
       "title": "Viron suurlähetystö Ateenassa",
-      "description": "Viron suurlähetystön saneeraus Ateenassa. Muutetiin huonejakoja, uusittiin kaikki lattia-, katto- ja seinäpinnat sekä märkätilat. Asennettiin uusi keittiö ja uusittiin kaikki irtokalusteet. Asennettiin kokonaan uusi ilmastointi ja kattovalaistus. Urakka-aika huhtikuu–kesäkuu 2024. Tilaaja Viron ulkoministeriö."
+      "description": "Viron suurlähetystön saneeraus Ateenassa. Muutetiin huonejakoja, uusittiin kaikki lattia-, katto- ja seinäpinnat sekä märkätilat. Asennettiin uusi keittiö ja uusittiin kaikki irtokalusteet. Asennettiin kokonaan uusi ilmastointi ja kattovalaistus. Urakka-aika huhtikuu–kesäkuu 2024. Tilaaja Viron ulkoministeriö.",
+      "meta": ["Ateena", "2024", "Saneeraus"],
+      "imageUrl": "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?q=80&w=1200&auto=format&fit=crop"
     }
   ],
   "ctaTitle": "Kiinnostuitko?",

@@ -16,10 +16,11 @@ export default function InWork() {
     <section>
       <div className="container">
         <h2 className="section-title">{t('pageTitle')}</h2>
+        <p>{t('intro')}</p>
         {hasProjects ? (
           <div className="cards-grid">
             {projects.map((proj, idx) => (
-              <ProjectCard key={idx} title={proj.title} description={proj.description} />
+              <ProjectCard key={idx} title={proj.title} description={proj.description} meta={proj.meta} imageUrl={proj.imageUrl} />
             ))}
           </div>
         ) : (

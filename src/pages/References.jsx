@@ -23,7 +23,7 @@ export default function References() {
         {hasReferences ? (
           <div className="cards-grid">
             {references.map((ref, idx) => (
-              <ProjectCard key={idx} title={ref.title} description={ref.description} />
+              <ProjectCard key={idx} title={ref.title} description={ref.description} meta={ref.meta} imageUrl={ref.imageUrl} />
             ))}
           </div>
         ) : (

@@ -1,10 +1,24 @@
 {
   "pageTitle": "Työmaat käynnissä",
-  "intro": "Tutustu käynnissä oleviin työmaihimme.",
+  "intro": "Tutustu käynnissä oleviin työmaihimme. Päivitämme tilannetta säännöllisesti.",
   "projects": [
     {
       "title": "Itsenäisyydenkatu 25, Tampere",
-      "description": "Asunto Oy Kalevanlukko. Kerrostalojen julkisivurappauksen sekä parvekkeiden uusiminen, julkisivujen maalaus."
+      "description": "Asunto Oy Kalevanlukko. Kerrostalojen julkisivurappauksen sekä parvekkeiden uusiminen, julkisivujen maalaus.",
+      "meta": ["Tampere", "2025", "Julkisivurappaus"],
+      "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "title": "Kauppakatu 7, Lahti",
+      "description": "Liikerakennuksen julkisivujen korjaus ja maalaus, sekä parvekkeiden kuntokorjaukset.",
+      "meta": ["Lahti", "2025", "Korjausrakentaminen"],
+      "imageUrl": "https://images.unsplash.com/photo-1455906876003-298dd8c44ec9?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "title": "As Oy Mäntylinna, Helsinki",
+      "description": "Parvekkeiden uusiminen, kaiteet ja vedeneristys, sekä julkisivujen paikkaus.",
+      "meta": ["Helsinki", "2025", "Parvekekorjaukset"],
+      "imageUrl": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop"
     }
   ],
   "empty": "Tällä hetkellä ei ole aktiivisia työmaita."
