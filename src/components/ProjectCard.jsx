@@ -47,7 +47,7 @@ export default function ProjectCard({ title, description, meta = [], imageUrl, i
         {/* Read More Indicator */}
         <div className="read-more-indicator">
           <span className="indicator-text">Lue lisää</span>
-          <svg className="indicator-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none">
+          <svg className="indicator-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none">
             <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </div>
