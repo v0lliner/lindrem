@@ -35,7 +35,7 @@ header .inner {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -86,7 +86,7 @@ header nav li a:hover::after {
 
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -279,7 +279,7 @@ footer .inner {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
   align-items: center;
   text-align: center;
@@ -312,7 +312,7 @@ footer a {
 
 .company-grid {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 350px 1fr;
   gap: 8rem;
   align-items: start;
 }
@@ -414,7 +414,7 @@ footer a {
 }
 
 .services-list {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -423,7 +423,7 @@ footer a {
 
 .service-item {
   display: grid;
-  grid-template-columns: 80px 1fr 60px;
+  grid-template-columns: 100px 1fr 80px;
   align-items: center;
   gap: 2rem;
   padding: 3rem 0;
@@ -494,7 +494,7 @@ footer a {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
-  gap: 4rem;
+  gap: 6rem;
 }
 
 .cta-title {
@@ -510,7 +510,7 @@ footer a {
   line-height: 1.6;
   opacity: 0.9;
   margin: 0;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .premium-button {
@@ -559,6 +559,69 @@ footer a {
   z-index: 1;
 }
 
+/* Ultra-wide screen optimizations */
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
+  }
+  
+  header .inner,
+  footer .inner {
+    max-width: 1600px;
+  }
+  
+  .company-grid {
+    grid-template-columns: 400px 1fr;
+    gap: 10rem;
+  }
+  
+  .services-list {
+    max-width: 1300px;
+  }
+  
+  .service-item {
+    grid-template-columns: 120px 1fr 100px;
+    gap: 3rem;
+  }
+  
+  .cta-content {
+    gap: 8rem;
+  }
+  
+  .cta-description {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1800px;
+  }
+  
+  header .inner,
+  footer .inner {
+    max-width: 1800px;
+  }
+  
+  .company-grid {
+    grid-template-columns: 450px 1fr;
+    gap: 12rem;
+  }
+  
+  .services-list {
+    max-width: 1400px;
+  }
+  
+  .cta-content {
+    gap: 10rem;
+  }
+  
+  .cta-description {
+    max-width: 800px;
+    font-size: 1.2rem;
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .company-grid {
@@ -600,7 +663,7 @@ footer a {
   }
   
   .service-item {
-    grid-template-columns: 60px 1fr 40px;
+    grid-template-columns: 80px 1fr 60px;
     gap: 1.5rem;
     padding: 2rem 0;
   }
