@@ -61,7 +61,7 @@ export default function Home() {
         <div className="container">
           <div className="services-header">
             <h2 className="clean-title">{t('servicesTitle')}</h2>
-            <div className="title-accent"></div>
+            <div className="title-accent" style={{ margin: '1rem auto 0' }}></div>
           </div>
           
           {Array.isArray(services) && (
