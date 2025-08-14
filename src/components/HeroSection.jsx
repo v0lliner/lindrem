@@ -12,35 +12,20 @@ export default function HeroSection() {
   const t = useTranslation('home');
   const tLayout = useTranslation('layout');
   const contactPath = language === 'fi' ? `/${language}/yhteys` : `/${language}/kontakt`;
+  
   return (
-    <section className="hero">
-      <div className="container">
-        <h1>{t('heroTitle')}</h1>
-        <p>{t('heroSubtitle')}</p>
-        <Link
-          to={contactPath}
-          style={{
-            display: 'inline-block',
-            marginTop: '2rem',
-            backgroundColor: '#fff',
-            color: 'var(--primary-color)',
-            padding: '0.75rem 1.5rem',
-            borderRadius: '0.5rem',
-            fontWeight: 600,
-            textDecoration: 'none',
-            transition: 'background-color 0.3s, color 0.3s',
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.backgroundColor = 'var(--light-primary)';
-            e.target.style.color = 'var(--primary-color)';
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.backgroundColor = '#fff';
-            e.target.style.color = 'var(--primary-color)';
-          }}
-        >
-          {tLayout('contactButton')}
-        </Link>
+    <section className="hero-split">
+      <div className="hero-left">
+        {/* Background image with overlay - same as original hero */}
+      </div>
+      <div className="hero-right">
+        <div className="hero-content">
+          <h1 className="hero-title">{t('heroTitle')}</h1>
+          <p className="hero-subtitle">{t('heroSubtitle')}</p>
+          <Link to={contactPath} className="hero-button">
+            {tLayout('contactButton')}
+          </Link>
+        </div>
       </div>
     </section>
   );
