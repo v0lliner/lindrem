@@ -409,10 +409,11 @@ footer a {
 
 .content-column {
   max-width: 700px;
-  padding-right: 2rem;
+  padding-left: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   min-height: 70vh;
 }
 
