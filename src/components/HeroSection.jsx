@@ -12,35 +12,42 @@ export default function HeroSection() {
   const t = useTranslation('home');
   const tLayout = useTranslation('layout');
   const contactPath = language === 'fi' ? `/${language}/yhteys` : `/${language}/kontakt`;
+  
   return (
-    <section className="hero">
-      <div className="container">
-        <h1>{t('heroTitle')}</h1>
-        <p>{t('heroSubtitle')}</p>
-        <Link
-          to={contactPath}
-          style={{
-            display: 'inline-block',
-            marginTop: '2rem',
-            backgroundColor: '#fff',
-            color: 'var(--primary-color)',
-            padding: '0.75rem 1.5rem',
-            borderRadius: '0.5rem',
-            fontWeight: 600,
-            textDecoration: 'none',
-            transition: 'background-color 0.3s, color 0.3s',
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.backgroundColor = 'var(--light-primary)';
-            e.target.style.color = 'var(--primary-color)';
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.backgroundColor = '#fff';
-            e.target.style.color = 'var(--primary-color)';
-          }}
+    <section className="split-hero">
+      {/* Left side - Image background */}
+      <div className="hero-image-side">
+        <div className="hero-background"></div>
+        <div className="hero-overlay"></div>
+      </div>
+      
+      {/* Right side - White background with content */}
+      <div className="hero-content-side">
+        <div className="hero-content">
+          <h1 className="hero-title">{t('heroTitle')}</h1>
+          <p className="hero-subtitle">{t('heroSubtitle')}</p>
+          <Link to={contactPath} className="hero-button">
+            {tLayout('contactButton')}
+          </Link>
+        </div>
+      </div>
+      
+      {/* Custom path separator */}
+      <div className="hero-separator">
+        <svg 
+          viewBox="0 0 100 100" 
+          preserveAspectRatio="none"
+          className="separator-path"
         >
-          {tLayout('contactButton')}
-        </Link>
+          <path 
+            d="M 0,0 
+               C 20,15 30,25 40,40
+               S 60,55 70,70
+               C 80,80 90,90 100,100
+               L 100,0 Z" 
+            fill="white"
+          />
+        </svg>
       </div>
     </section>
   );
