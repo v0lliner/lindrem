@@ -1,5 +1,6 @@
 import React from 'react';
-import { useTranslation } from '../i18nContext';
+import { Link } from 'react-router-dom';
+import { useTranslation, useLanguage } from '../i18nContext';
 import ProjectCard from '../components/ProjectCard';
 
 /**
@@ -55,6 +56,26 @@ export default function InWork() {
               <p className="empty-text">{t('empty')}</p>
             </div>
           )}
+        </div>
+      </section>
+
+      {/* Clean CTA Section */}
+      <section className="clean-cta-section">
+        <div className="container">
+          <div className="cta-panel">
+            <div className="cta-content">
+              <div className="cta-text">
+                <h2 className="cta-title">{useTranslation('home')('ctaTitle')}</h2>
+                <p className="cta-description">{useTranslation('home')('ctaDescription')}</p>
+              </div>
+              <div className="cta-action">
+                <Link to={`/${useLanguage().language === 'fi' ? useLanguage().language + '/yhteys' : useLanguage().language + '/kontakt'}`} className="premium-button">
+                  <span className="button-text">{useTranslation('layout')('contactButton')}</span>
+                  <div className="button-shine"></div>
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

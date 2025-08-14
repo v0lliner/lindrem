@@ -64,24 +64,21 @@ export default function References() {
         </div>
       </section>
 
-      {/* Integrated Premium CTA */}
-      <section className="premium-integrated-cta">
+      {/* Clean CTA Section */}
+      <section className="clean-cta-section">
         <div className="container">
-          <div className="cta-content-wrapper">
-            <div className="cta-text-section">
-              <h2 className="cta-title">{t('ctaTitle')}</h2>
-              <p className="cta-description">{t('ctaDescription')}</p>
-            </div>
-            <div className="cta-action-section">
-              <Link to={contactPath} className="premium-cta-button">
-                <span className="button-content">
+          <div className="cta-panel">
+            <div className="cta-content">
+              <div className="cta-text">
+                <h2 className="cta-title">{useTranslation('home')('ctaTitle')}</h2>
+                <p className="cta-description">{useTranslation('home')('ctaDescription')}</p>
+              </div>
+              <div className="cta-action">
+                <Link to={contactPath} className="premium-button">
                   <span className="button-text">{tLayout('contactButton')}</span>
-                  <svg className="button-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none">
-                    <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </span>
-                <div className="button-glow"></div>
-              </Link>
+                  <div className="button-shine"></div>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
