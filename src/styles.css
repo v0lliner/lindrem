@@ -574,7 +574,7 @@ footer a {
 
 .service-item {
   display: grid;
-  grid-template-columns: 100px 1fr 80px;
+  grid-template-columns: 120px 1fr 80px;
   align-items: center;
   gap: 2rem;
   padding: 3rem 0;
@@ -598,19 +598,30 @@ footer a {
 }
 
 .service-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--primary-color) 0%, rgba(0, 48, 135, 0.8) 100%);
+  color: white;
+  border-radius: 50%;
+  margin: 0 auto;
   font-size: 1.5rem;
   font-weight: 800;
-  color: var(--primary-color);
-  opacity: 0.4;
-  transition: opacity 0.4s ease;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0, 48, 135, 0.2);
 }
 
 .service-item:hover .service-number {
-  opacity: 1;
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 48, 135, 0.3);
+  background: linear-gradient(135deg, rgba(0, 48, 135, 0.9) 0%, var(--primary-color) 100%);
 }
 
 .service-content {
   min-width: 0;
+  text-align: center;
 }
 
 .service-title {
@@ -731,7 +742,7 @@ footer a {
   }
   
   .service-item {
-    grid-template-columns: 120px 1fr 100px;
+    grid-template-columns: 140px 1fr 100px;
     gap: 3rem;
   }
   
@@ -818,7 +829,7 @@ footer a {
   }
   
   .service-item {
-    grid-template-columns: 80px 1fr 60px;
+    grid-template-columns: 100px 1fr 60px;
     gap: 1.5rem;
     padding: 2rem 0;
   }
@@ -828,6 +839,8 @@ footer a {
   }
   
   .service-number {
+    width: 50px;
+    height: 50px;
     font-size: 1.2rem;
   }
   
