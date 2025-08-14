@@ -90,16 +90,18 @@ export default function Home() {
       {/* Clean CTA Section */}
       <section className="clean-cta-section">
         <div className="container">
-          <div className="cta-content">
-            <div className="cta-text">
-              <h2 className="cta-title">{t('ctaTitle')}</h2>
-              <p className="cta-description">{t('ctaDescription')}</p>
-            </div>
-            <div className="cta-action">
-              <Link to={contactPath} className="premium-button">
-                <span className="button-text">{useTranslation('layout')('contactButton')}</span>
-                <div className="button-shine"></div>
-              </Link>
+          <div className="cta-panel">
+            <div className="cta-content">
+              <div className="cta-text">
+                <h2 className="cta-title">{t('ctaTitle')}</h2>
+                <p className="cta-description">{t('ctaDescription')}</p>
+              </div>
+              <div className="cta-action">
+                <Link to={contactPath} className="premium-button">
+                  <span className="button-text">{useTranslation('layout')('contactButton')}</span>
+                  <div className="button-shine"></div>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

@@ -648,8 +648,15 @@ footer a {
 /* Clean CTA Section */
 .clean-cta-section {
   padding: 8rem 0;
+  background: white;
+}
+
+.cta-panel {
   background: linear-gradient(135deg, var(--primary-color) 0%, rgba(0, 48, 135, 0.9) 100%);
   color: white;
+  border-radius: 2rem;
+  padding: 4rem;
+  box-shadow: 0 20px 40px rgba(0, 48, 135, 0.15);
 }
 
 .cta-content {
