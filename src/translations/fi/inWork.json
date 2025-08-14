@@ -19,6 +19,24 @@
       "description": "Parvekkeiden uusiminen, kaiteet ja vedeneristys, sekä julkisivujen paikkaus.",
       "meta": ["Helsinki", "2025", "Parvekekorjaukset"],
       "imageUrl": "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    {
+      "title": "Keskuskatu 15, Turku",
+      "description": "Historiallisen rakennuksen julkisivun restaurointi ja rappauksen uusiminen. Alkuperäisten yksityiskohtien säilyttäminen.",
+      "meta": ["Turku", "2025", "Restaurointi"],
+      "imageUrl": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    {
+      "title": "As Oy Kuusikoti, Espoo",
+      "description": "Kerrostalon ulkoseinien lämmöneristys ja ohutrappausjärjestelmän asennus. Energiatehokkuuden parantaminen.",
+      "meta": ["Espoo", "2025", "Lämmöneristys"],
+      "imageUrl": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    {
+      "title": "Teollisuuskatu 8, Vantaa",
+      "description": "Liikerakennuksen julkisivulevytys ja ikkunoiden uusiminen. Moderni ulkoasu ja parempi energiatehokkuus.",
+      "meta": ["Vantaa", "2025", "Julkisivulevytys"],
+      "imageUrl": "https://images.pexels.com/photos/1396118/pexels-photo-1396118.jpeg?auto=compress&cs=tinysrgb&w=1200"
     }
   ],
   "empty": "Tällä hetkellä ei ole aktiivisia työmaita."
