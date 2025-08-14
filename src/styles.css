@@ -697,13 +697,21 @@ footer a {
   gap: 6rem;
 }
 
+.cta-text .cta-title {
+  color: white !important;
+}
+
+.cta-text .cta-description {
+  color: white !important;
+}
+
 .cta-title {
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 700;
   margin: 0 0 1.5rem 0;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  color: white;
+  color: white !important;
 }
 
 .cta-description {
@@ -711,7 +719,7 @@ footer a {
   line-height: 1.6;
   margin: 0;
   max-width: 600px;
-  color: white;
+  color: white !important;
   opacity: 0.9;
 }
 
