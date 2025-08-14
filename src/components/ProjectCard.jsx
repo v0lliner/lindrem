@@ -18,7 +18,7 @@ export default function ProjectCard({ title, description, meta = [], imageUrl, i
           <img src={imageUrl} alt={title} loading="lazy" className="card-image" />
           <div className="image-overlay">
             <div className="overlay-content">
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
                 <path d="M15 3H6A3 3 0 0 0 3 6V18A3 3 0 0 0 6 21H18A3 3 0 0 0 21 18V9L15 3Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M15 3V9H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
@@ -47,7 +47,7 @@ export default function ProjectCard({ title, description, meta = [], imageUrl, i
         {/* Read More Indicator */}
         <div className="read-more-indicator">
           <span className="indicator-text">Lue lisää</span>
-          <svg className="indicator-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none">
+          <svg className="indicator-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none">
             <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </div>
