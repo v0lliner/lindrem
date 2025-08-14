@@ -409,7 +409,7 @@ footer a {
 
 .content-column {
   max-width: 700px;
-  padding-left: 12rem;
+  padding-left: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
