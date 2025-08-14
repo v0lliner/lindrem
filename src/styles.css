@@ -136,13 +136,14 @@ section {
   background: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 4rem;
 }
 
 .hero-content {
   max-width: 500px;
   width: 100%;
+  text-align: left;
 }
 
 .hero-title {
