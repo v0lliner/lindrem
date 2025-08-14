@@ -358,6 +358,7 @@ footer a {
   grid-template-columns: 1fr 1fr;
   gap: 8rem;
   align-items: start;
+  min-height: 70vh;
 }
 
 .stats-column {
@@ -368,6 +369,8 @@ footer a {
   gap: 3rem;
   align-items: flex-end;
   padding-left: 2rem;
+  justify-content: center;
+  min-height: 70vh;
 }
 
 .stat-item {
@@ -407,6 +410,10 @@ footer a {
 .content-column {
   max-width: 700px;
   padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 70vh;
 }
 
 .section-header {
