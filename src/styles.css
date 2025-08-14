@@ -648,7 +648,7 @@ footer a {
 /* Clean CTA Section */
 .clean-cta-section {
   padding: 8rem 0;
-  background: white;
+  background: rgba(0, 48, 135, 0.02);
 }
 
 .cta-panel {
