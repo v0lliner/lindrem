@@ -697,14 +697,16 @@ footer a {
   margin: 0 0 1.5rem 0;
   line-height: 1.2;
   letter-spacing: -0.02em;
+  color: white;
 }
 
 .cta-description {
   font-size: 1.1rem;
   line-height: 1.6;
-  opacity: 0.9;
   margin: 0;
   max-width: 600px;
+  color: white;
+  opacity: 0.9;
 }
 
 .premium-button {
