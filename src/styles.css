@@ -1251,6 +1251,7 @@ footer a {
   height: 100%;
   object-fit: cover;
   transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 1.5rem 1.5rem 0 0;
 }
 
 .image-hover-overlay {
