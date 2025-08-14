@@ -44,7 +44,7 @@ export default function Header() {
   return (
     <header>
       <div className="inner">
-        <Link to={`/${language}`} className="logo" style={{ display: 'flex', alignItems: 'center' }}>
+        <Link to={`/${language}`} className="logo" style={{ display: 'flex', alignItems: 'center', padding: 0 }}>
           <img src={logo} alt="Lindrem logo" style={{ height: '40px', width: 'auto' }} />
         </Link>
         <nav>
