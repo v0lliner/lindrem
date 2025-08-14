@@ -367,8 +367,9 @@ footer a {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  align-items: flex-end;
-  padding-left: 2rem;
+  align-items: flex-start;
+  padding-right: 2rem;
+  padding-left: 0;
   justify-content: center;
   min-height: 70vh;
 }
