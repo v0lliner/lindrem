@@ -991,9 +991,6 @@ footer a {
   display: flex;
   flex-direction: column;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
 }
 
 .card-meta {
@@ -1029,7 +1026,7 @@ footer a {
   color: rgba(107, 114, 128, 0.9);
   line-height: 1.6;
   margin: 0 0 1.5rem 0;
-  flex: 1;
+  flex-grow: 1;
 }
 
 .read-more-indicator {
@@ -1039,9 +1036,11 @@ footer a {
   color: var(--primary-color);
   font-size: 0.9rem;
   font-weight: 800;
-  opacity: 0.7;
+  opacity: 1;
   transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
-  margin: 0;
+  margin-top: auto;
+  margin-bottom: 0;
+  padding: 0.5rem 0;
 }
 
 .premium-project-card:hover .read-more-indicator {
@@ -1050,9 +1049,10 @@ footer a {
 
 .indicator-arrow {
   transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
-  width: 24px;
-  height: 24px;
-  stroke-width: 3;
+  width: 20px;
+  height: 20px;
+  stroke-width: 2.5;
+  flex-shrink: 0;
 }
 
 .card-glow {
