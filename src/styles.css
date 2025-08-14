@@ -68,20 +68,68 @@ header nav li a:hover::after {
   width: 100%;
 }
 
+.language-switcher {
+  display: flex;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 255, 0.8) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 48, 135, 0.1);
+  border-radius: 0.75rem;
+  padding: 0.25rem;
+  box-shadow: 0 4px 12px rgba(0, 48, 135, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.language-switcher::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 48, 135, 0.03) 0%, transparent 70%);
+  pointer-events: none;
+}
+
 .language-switcher button {
+  position: relative;
   background: transparent;
   border: none;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 0.9rem;
   cursor: pointer;
-  margin-left: 0.5rem;
-  padding: 0.25rem 0.5rem;
-  border-radius: 0.25rem;
-  transition: background-color 0.3s;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  color: rgba(107, 114, 128, 0.8);
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  z-index: 2;
+  min-width: 60px;
+}
+
+.language-switcher button:hover {
+  color: var(--primary-color);
+  transform: translateY(-1px);
 }
 
 .language-switcher button.active {
-  background-color: var(--primary-color);
+  background: linear-gradient(135deg, var(--primary-color) 0%, rgba(0, 48, 135, 0.9) 100%);
   color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 48, 135, 0.3);
+  transform: translateY(-1px);
+}
+
+.language-switcher button.active::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.2) 0%, transparent 70%);
+  border-radius: 0.5rem;
+  z-index: -1;
 }
 
 .container {
