@@ -282,7 +282,7 @@ p {
 
 .cta {
   background-color: var(--primary-color);
-  color: #fff;
+  color: white;
   padding: 3rem 2rem;
   border-radius: 1rem;
   text-align: center;
@@ -292,11 +292,13 @@ p {
 .cta h2 {
   margin-top: 0;
   font-size: 2rem;
+  color: white;
 }
 
 .cta p {
   font-size: 1.1rem;
   margin: 1rem 0 2rem 0;
+  color: white;
 }
 
 .cta button {
