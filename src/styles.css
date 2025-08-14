@@ -553,6 +553,31 @@ footer a {
   margin: 0;
 }
 
+/* Enhanced text sizing for better balance */
+@media (min-width: 1200px) {
+  .lead-paragraph {
+    font-size: 1.3rem;
+    line-height: 1.7;
+  }
+  
+  .content-flow p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+}
+
+@media (min-width: 1440px) {
+  .lead-paragraph {
+    font-size: 1.35rem;
+    line-height: 1.7;
+  }
+  
+  .content-flow p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+  }
+}
+
 /* Clean Services Section */
 .clean-services-section {
   padding: 8rem 0;
@@ -744,6 +769,15 @@ footer a {
     gap: 10rem;
   }
   
+  .lead-paragraph {
+    font-size: 1.4rem;
+  }
+  
+  .content-flow p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
   .services-list {
     max-width: 1300px;
   }
@@ -775,6 +809,15 @@ footer a {
   .company-grid {
     grid-template-columns: 450px 1fr;
     gap: 12rem;
+  }
+  
+  .lead-paragraph {
+    font-size: 1.5rem;
+  }
+  
+  .content-flow p {
+    font-size: 1.3rem;
+    line-height: 1.8;
   }
   
   .services-list {
